@@ -1,0 +1,185 @@
+% =====================================================================
+% =                                                                   =
+% =                  CTU template for thesis reviews                  =
+% =             ČVUT šablona pro posudky závěrečných prací            =
+% =                                                                   =
+% =                       author: Michal Neoral                       =
+% =                   contact: neoramic@fel.cvut.cz                   =
+% =                   contact: michalneoral@email.cz                  =
+% =                                                                   =
+% =                          14th June 2023                           =
+% =                                                                   =
+% =====================================================================
+% =                             DISCLAIMER:                           =
+% =                                                                   =
+% =  This LaTeX-based thesis reviewer report template is unofficial   =
+% =  and provided without any guarantee. Usage of the template is at  =
+% =  your own risk. The template was created according to the offi    =
+% =  -cial word templates accessible from KOS or from:                =
+% =  https://comtel.fel.cvut.cz/cs/instrukce-pro-zaverecne-prace      =
+% =      Template was created for my personal usage at first. I was   =
+% =  asked to publish it by my colleagues.                            =
+% =====================================================================
+
+
+% =====================================================================
+% =                           BASIC SETTINGS                          =
+% =                                                                   =
+% =   en/cz - language settings of the template                       =
+% =   master/bachelor - a type of the thesis                          =
+% =   reviewer/supervisor - your relation to the thesis               =
+% =   wouthelp - render without the grey description (if you wish)    =
+% =====================================================================
+\documentclass[lang=cz,thesistype=master,iam=reviewer]{ctu_review_report/ctu_review_report}
+% \documentclass[lang=cz,thesistype=bachelor,iam=supervisor]{ctu_review_report/ctu_review_report}
+
+% =====================================================================
+% =   DATE SETTING - in format YEAR-MONTH-DAY, or you can use \today  =
+% =====================================================================
+\date{1342-2-30}
+% \date{\today}
+
+% =====================================================================
+% =            YOU (same field for reviewer and supervisor)           =
+% =                     Do not forget your titles.                    =
+% =====================================================================
+\reviewerName{ \DeleteMeAndInsertYourName }
+\reviewerDepartment{ \DeleteMeAndInsertYourDepartment }
+
+% =====================================================================
+% =                    INFORMATION ABOUT THE THESIS                   =
+% =====================================================================
+\thesisTitle{ \DeleteMeAndInsertThesisTitle }
+\thesisAuthor{ \DeleteMeAndInsertThesisAuthorName }
+\thesisAuthorDepartment{ \DeleteMeAndInsertDepartmentAccordingToAssignment }
+
+
+% =====================================================================
+% =                          FACULTY/INSTITUTE                        =
+% =  insert faculty/institute abbreviation without diacritic          =
+% =  both English and Czech abbreviations work                        =
+% =  e.g.: FEL, FEE, FBMI, MUVS, FSv, FSV, FA, FJFI, and so on        =
+% =====================================================================
+\faculty{FUN}
+
+
+\begin{document}
+\printIdentificationData
+
+
+% =====================================================================
+% =                       EVALUATION - ASSIGNMENT                     =
+% =  letter does not necessarily means grade, focus on the text eval  =
+% =  a - extraordinarily challenging / mimořádně náročné              =
+% =  b - challenging / nářočnější                                     =
+% =  c - ordinarily challenging / průměrně náročné                    =
+% =  d - easy / lehčí                                                 =
+% =  e - unsatisfacrorily challenging / nedostatečně náročné          =
+% =====================================================================
+\evalAssignment{b}{
+\DeleteMeAndFillYourOwnCommentAboutAssignment
+}
+
+
+% =====================================================================
+% =                 EVALUATION - Fulfilment of assignment             =
+% =  letter does not necessarily means grade, focus on the text eval  =
+% =  a - fulfilled / splněno                                          =
+% =  b - fulfilled with minor objections/splněno s menšími výhradami  =
+% =  c - fulfilled with major objections/splněno s většími výhradami  =
+% =  d - unfulfilled / nesplněno                                      =
+% =====================================================================
+% \clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
+\evalFulfilment{b}{
+\DeleteMeAndFillYourOwnCommentAboutFulfilmentOfTheAssignment
+}
+
+
+% =====================================================================
+% =                       EVALUATION - Methodology                    =
+% =  ONLY FOR REVIEWER - will not be rendered in supervisor's report  =
+% =  letter does not necessarily means grade, focus on the text eval  =
+% =  a - outstanding / vynikající                                     =
+% =  b - correct / správný                                            =
+% =  c - partially applicable / částečně vhodný                       =
+% =  d - incorrect / nesprávný                                        =
+% =====================================================================
+% \clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
+\evalMethodology{b}{
+\DeleteMeAndFillYourOwnCommentAboutMethodology
+}
+
+% =====================================================================
+% =                       EVALUATION - Activity                       =
+% =  ONLY FOR SUPERVISOR - will not be rendered in reviewer's report  =
+% =                 uppercase letter interprets grades                =
+% =  A - excellent / výborně                                          =
+% =  B - very good / velmi dobře                                      =
+% =  C - good / dobře                                                 =
+% =  D - satisfactory / uspokojivě                                    =
+% =  E - sufficient / dostatečně                                      =
+% =  F - failed / nedostatečně                                        =
+% =====================================================================
+% \clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
+\evalActivity{B}{
+\DeleteMeAndFillYourOwnCommentAboutActivity
+}
+
+
+
+% =====================================================================
+% =                       EVALUATION - Grades                         =
+% =          The rest of the evaluation share common settings         =
+% =                 uppercase letter interprets grade                 =
+% =  A - excellent / výborně                                          =
+% =  B - very good / velmi dobře                                      =
+% =  C - good / dobře                                                 =
+% =  D - satisfactory / uspokojivě                                    =
+% =  E - sufficient / dostatečně                                      =
+% =  F - failed / nedostatečně                                        =
+% =====================================================================
+% \clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
+\evalTechnicalLevel{A}{
+\DeleteMeAndFillYourOwnCommentAboutTechnicalLevel
+}
+
+\clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
+\evalFormal{C}{
+\DeleteMeAndFillYourOwnCommentAboutFormalLevel
+}
+
+% \clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
+\evalCitation{C}{
+\DeleteMeAndFillYourOwnCommentAboutSelectionOfSources
+}
+
+% =====================================================================
+% =               ADDITIONAL COMMENTS - WITHOUT GRADE                 =
+% =====================================================================
+% \clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
+\evalComments{
+\DeleteMeAndFillYourOwnAdditionalComments
+}
+
+% =====================================================================
+% =                      EVALUATION - OVERALL                         =
+% =                 uppercase letter interprets grades                =
+% =  A - excellent / výborně                                          =
+% =  B - very good / velmi dobře                                      =
+% =  C - good / dobře                                                 =
+% =  D - satisfactory / uspokojivě                                    =
+% =  E - sufficient / dostatečně                                      =
+% =  F - failed / nedostatečně                                        =
+% =====================================================================
+\clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
+\evalOverall{B}{
+\DeleteMeAndFillYourOwnOverallComment
+}
+
+
+
+\dateAndSigniture
+
+\end{document}
+
+

@@ -22,7 +22,8 @@
 
 % =====================================================================
 % =                          LOG of changes:                          =
-% = 2023-06-14 - Creation of a template                               =
+% = 2023-06-14 - Creation of the template                             =
+% = 2025-05-03 - Published                                            =
 % =====================================================================
 
 \NeedsTeXFormat{LaTeX2e}
@@ -169,6 +170,7 @@
 \RequirePackage[sf,bf]{titlesec}
 \RequirePackage{mdframed}
 \RequirePackage{svg}
+
 \RequirePackage{lastpage}
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
@@ -272,10 +274,12 @@
 
 % Czech or English logo of our university
 \ifen
-\lhead{\includesvg[width=4.5cm]{ctu_review_report/logo_CTU_cb.svg}}
+%\lhead{\includesvg[width=4.5cm]{ctu_review_report/logo_CTU_cb.svg}}
+\lhead{\includegraphics [width=4.5cm]{ctu_review_report/logo_CTU_cb}}
 \fi
 \ifcz
-\lhead{\includesvg[width=4.5cm]{ctu_review_report/logo_CVUT_cb.svg}}
+%\lhead{\includesvg[width=4.5cm]{ctu_review_report/logo_CVUT_cb.svg}}
+\lhead{\includegraphics[width=4.5cm]{ctu_review_report/logo_CVUT_cb}}
 \fi
 
 
@@ -571,7 +575,7 @@ frametitle={
     \item What are the reasons for not fulfilling assignment task (f)?
     \item Why is there a lack of discussion regarding this matter in the text?
 \end{itemize}
-}{Tato závěrečná práce je skvělým příkladem kreativity, spojení nekonvenčních přístupů a technického know-how. Student předvedl hluboké porozumění danému tématu a představil nové a inovativní způsoby využití vílího prachu v elektrických obvodech. Otázky, které by student měl zodpovědět při obhajobě, by se mohly zaměřit na technické detaily experimentů a případné aplikace této magické metody v reálném světě. 
+}{Tato závěrečná práce je skvělým příkladem kreativity, spojení nekonvenčních přístupů a technického know-how. Student předvedl hluboké porozumění danému tématu a představil nové a inovativní způsoby využití vílího prachu v elektrických obvodech. Otázky, které by student měl zodpovědět při obhajobě, by se mohly zaměřit na technické detaily experimentů a případné aplikace této magické metody v reálném světě.
 
 \vspace{10pt}
 \noindent \textbf{Otázky k obhajobě}:

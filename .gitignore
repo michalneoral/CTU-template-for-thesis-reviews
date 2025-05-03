@@ -1,0 +1,8 @@
+sources/*
+out/*
+auxil/*
+*/auxil/*
+**/auxil/*
+*.gz
+.idea/*
+

@@ -172,9 +172,10 @@
 % =  F - failed / nedostatečně                                        =
 % =====================================================================
 \clearpage % uncomment if you want to rest on the standalone page or without interruption of the box
-\evalOverall{B}{
-\DeleteMeAndFillYourOwnOverallComment
-}
+
+% WARNING – THE FOLLOWING BOX SHOULD NOT BE NESTED.
+% It causes spacing issues at the beginning, and I don't have time to investigate the reason.
+\evalOverall{B}{\DeleteMeAndFillYourOwnOverallComment}
 
 
 

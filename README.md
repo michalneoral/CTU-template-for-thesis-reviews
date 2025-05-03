@@ -1,0 +1,1 @@
+# CTU-template-for-thesis-reviews

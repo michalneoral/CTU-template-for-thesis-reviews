@@ -33,11 +33,38 @@ Originally created by Michal Neoral for personal use, this template replicates t
 
 ## 🚀 Getting Started
 
+You can use this template either:
+
+- 🟢 **Online** via [Overleaf](https://www.overleaf.com/) — recommended for convenience and collaboration  
+- ⚙️ **Locally** on your machine — if you prefer full control over your LaTeX environment
+
+---
+
+## 🚀 Getting Started — Overleaf
+
+1. **Download ZIP**  
+   Go to the [GitHub repository](https://github.com/michalneoral/CTU-template-for-thesis-reviews) and click  
+   **Code → Download ZIP**.
+
+2. **Upload to Overleaf**  
+   - Open [Overleaf](https://www.overleaf.com/)
+   - Click **"New Project" → "Upload Project"**
+   - Select the downloaded `.zip` file
+
+That’s it — Overleaf will automatically recognize `main.tex` as the main entry point and compile the project.
+
+> ℹ️ _In the future, this template will be available directly in Overleaf’s **Institutional Templates** section for CTU users._
+
+---
+
+## 🚀 Getting Started — Local
+
+
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ctu-thesis-review-template.git
-cd ctu-thesis-review-template
+git clone https://github.com/michalneoral/CTU-template-for-thesis-reviews.git
+cd CTU-template-for-thesis-reviews
 ```
 
 ### 2. Compile the report
@@ -48,7 +75,7 @@ Use a LaTeX engine like `pdflatex`, `xelatex`, or `lualatex`:
 pdflatex main.tex
 ```
 
-Repeat the compilation twice if needed (for correct references and page numbers).
+Repeat the compilation twice if needed.
 
 ---
 

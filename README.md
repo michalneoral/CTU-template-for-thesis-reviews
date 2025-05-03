@@ -4,6 +4,8 @@ This project provides an **unofficial LaTeX template** for writing **reviewer** 
 
 Originally created by Michal Neoral for personal use, this template replicates the official Word-based layout used in KOS and has been made publicly available for broader academic use.
 
+[Czech example here](ukazka_cz.pdf) and [English example here](sample_en.pdf)
+
 ---
 
 ## 🧰 Features
@@ -23,6 +25,8 @@ Originally created by Michal Neoral for personal use, this template replicates t
 ```
 .
 ├── main.tex                       # Main LaTeX file to compile - your input and settings
+├── sample_en.pdf                  # English PDF example
+├── ukazka_cz.pdf                  # Czech PDF example
 ├── ctu_review_report/
 │   ├── ctu_review_report.cls      # Main class file
 │   ├── logo_CTU_cb.pdf            # English CTU logo

@@ -275,7 +275,7 @@
 % Czech or English logo of our university
 \ifen
 %\lhead{\includesvg[width=4.5cm]{ctu_review_report/logo_CTU_cb.svg}}
-\lhead{\includegraphics [width=4.5cm]{ctu_review_report/logo_CTU_cb}}
+\lhead{\includegraphics [width=4.5cm]{ctu_review_report/logo_cvut_en_cb}}
 \fi
 \ifcz
 %\lhead{\includesvg[width=4.5cm]{ctu_review_report/logo_CVUT_cb.svg}}
